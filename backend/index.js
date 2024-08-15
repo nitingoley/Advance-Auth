@@ -14,7 +14,7 @@ connectToDatabase();
 const Port  = process.env.PORT || 9000
 
 
-app.use(cors({ origin: "https://deploy-mern-1whq.vercel.app",
+app.use(cors({ origin: "http://localhost:5173",
     methods: ["POST" , "GET"],
     credentials: true }));
 
