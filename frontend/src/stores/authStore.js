@@ -2,7 +2,7 @@ import { create } from "zustand";
 import axios from "axios";
 // import { signup } from "../../../backend/controller/userController";
 
-const API_URL = "http://localhost:4000/api/v3";
+const API_URL = "https://advance-authentication-rya7.onrender.com";
 
 axios.defaults.withCredentials = true;
 
