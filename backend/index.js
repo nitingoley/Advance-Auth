@@ -14,7 +14,7 @@ connectToDatabase();
 const Port  = process.env.PORT || 9000
 
 
-app.use(cors({ origin: "https://advance-auth-frontend.vercel.app/",
+app.use(cors({ origin: "https://advance-auth-frontend.vercel.app",
     methods: ["POST" , "GET"],
     credentials: true }));
 
