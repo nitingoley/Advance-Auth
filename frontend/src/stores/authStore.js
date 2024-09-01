@@ -2,7 +2,7 @@ import { create } from "zustand";
 import axios from "axios";
 // import { signup } from "../../../backend/controller/userController";
 
-const API_URL = "https://advance-authentication-rya7.onrender.com";
+const API_URL = "https://advance-auths.vercel.app/";
 
 axios.defaults.withCredentials = true;
 
